@@ -8,23 +8,21 @@ ul {
     list-style: none;
     text-align: center;
     font-size: 1rem;
-    background-color: #000000;
-    color: #ff0000;
+    background-color: #fa5656;
+    /* color: #ff0000; */
     font-family: style;
-
-
 
 }
 
 li {
     display: inline-block;
     padding: 20px 20px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-li:hover {
+/* li:hover {
     color: #00ffff;
-}
+} */
 
 h1 {
     text-align: center;
