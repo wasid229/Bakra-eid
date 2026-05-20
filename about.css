@@ -1,31 +1,45 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+#body {
+    background-color: #FFFDF5;
+    color: #5C4033;
 }
 
 ul {
     list-style: none;
     text-align: center;
     font-size: 1rem;
-    background-color: #fa5656;
-    /* color: #ff0000; */
+    background-color: #800000;
     font-family: style;
-
 }
+
 
 li {
     display: inline-block;
-    padding: 20px 20px;
-    /* cursor: pointer; */
+    padding: 20px 20px; 
 }
 
-/* li:hover {
-    color: #00ffff;
-} */
+a {
+text-decoration: none;
+color: #F5F5DC;
+}
+
+a:hover{
+    color: #FFD700;
+    transition: 0.3s ease;
+}
+
 
 h1 {
     text-align: center;
-    background-color: aqua;
     margin-top: 10px;
+      color: #9B1C1C;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
 }
